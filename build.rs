@@ -37,7 +37,7 @@ fn main() {
     }.trim_left_matches("(");
 
     // Shell out to perform the build.  In the future, the logic
-    // to grab liballoc could be done in rust in order to support
+    // to grab libcollections could be done in rust in order to support
     // platforms without a posix shell
     Command::new("sh")
         .arg("../build.sh")
