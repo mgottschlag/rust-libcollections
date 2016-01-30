@@ -13,3 +13,6 @@ rust-libcore = "*"
 
 [dependencies.alloc]
 git = "https://github.com/mgottschlag/rust-liballoc"
+
+[dependencies.rustc_unicode]
+git = "https://github.com/mgottschlag/rust-librustc_unicode"
